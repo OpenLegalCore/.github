@@ -1,7 +1,9 @@
 <!--
-Public facts verified on 2026-08-26 against the canonical OpenLegalCore Component records
-and the named public repositories. Recheck both sources before changing a version, status,
-licence, repository, evidence path or public/private boundary.
+Initial public facts verified on 2026-08-26 against the canonical OpenLegalCore Component records
+and the named public repositories. Word Connector beta facts and evidence routes rechecked on
+2026-09-09 against the public release, tagged documentation and current website links.
+Recheck both sources before changing a version, status, licence, repository, evidence path
+or public/private boundary.
 -->
 
 # OpenLegalCore
@@ -18,7 +20,7 @@ and limits stated separately.
 
 1. [See every Component and its current status](https://openlegalcore.org/components/).
 2. Choose a public repository below and read its versioned documentation and exact licence.
-3. [Inspect the evidence and its limits](https://openlegalcore.org/evidence/) where a separate public record exists.
+3. [Inspect the evidence and its limits](https://openlegalcore.org/#evidence) where a separate public record exists.
 4. [Join project-wide Discussions](https://github.com/orgs/OpenLegalCore/discussions) or [choose a contribution path](https://openlegalcore.org/#contribute).
 
 ## Public components
@@ -30,7 +32,7 @@ controls and an offline page-level review tool.
 
 [Repository](https://github.com/OpenLegalCore/legal-ocr-pipeline) ·
 [Component record](https://openlegalcore.org/components/legal-ocr-pipeline/) ·
-[Acceptance evidence](https://openlegalcore.org/evidence/ocr-acceptance/) ·
+[Acceptance evidence](https://openlegalcore.org/components/legal-ocr-pipeline/#ocr-review) ·
 [v0.1.2 source](https://github.com/OpenLegalCore/legal-ocr-pipeline/tree/v0.1.2) ·
 [Apache-2.0 licence](https://github.com/OpenLegalCore/legal-ocr-pipeline/blob/v0.1.2/LICENSE)
 
@@ -62,6 +64,24 @@ PostgreSQL as authoritative state and a derived Qdrant semantic index.
 
 **Boundary:** The repository does not include source credentials, court decisions, source records,
 data snapshots, embedding access, managed infrastructure, a retrieval interface or legal advice.
+
+### OpenLegalCore Word Connector · public v0.1.0-beta.1
+
+An Apache-2.0 Microsoft Word task-pane connector for Slovenian legislation and case-law research,
+using no document context or only explicitly selected text, with source-linked answers and no
+document changes.
+
+[Repository](https://github.com/OpenLegalCore/olc-word-connector) ·
+[Component record](https://openlegalcore.org/components/word-connector/) ·
+[v0.1.0-beta.1 release](https://github.com/OpenLegalCore/olc-word-connector/releases/tag/v0.1.0-beta.1) ·
+[Apache-2.0 licence](https://github.com/OpenLegalCore/olc-word-connector/blob/v0.1.0-beta.1/LICENSE) ·
+[Compatibility and limitations](https://github.com/OpenLegalCore/olc-word-connector/blob/v0.1.0-beta.1/docs/COMPATIBILITY_AND_LIMITATIONS.md)
+
+**Boundary:** This is a source-only beta. Word for the web is verified; Word for Windows and Mac
+are untested and carry no support claim. Live research requires an operator-supplied compatible
+backend and secure same-origin gateway. No hosted OpenLegalCore service, public backend, legal
+database, AppSource or Office Store listing, private infrastructure access or document editing
+is included.
 
 ## Work in public
 
