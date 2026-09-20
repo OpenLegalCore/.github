@@ -32,6 +32,20 @@ version, licence, evidence and release decision.
 
 ## Public components
 
+### OpenLegalCore Word Connector · public v0.1.0-beta.1
+
+An Apache-2.0 Microsoft Word task-pane add-in for researching Slovenian
+legislation and case law through an operator-configured compatible backend.
+
+[Repository](https://github.com/OpenLegalCore/olc-word-connector) ·
+[Component record](https://openlegalcore.org/components/word-connector/) ·
+[v0.1.0-beta.1 release](https://github.com/OpenLegalCore/olc-word-connector/releases/tag/v0.1.0-beta.1) ·
+[Apache-2.0 licence](https://github.com/OpenLegalCore/olc-word-connector/blob/v0.1.0-beta.1/LICENSE)
+
+**Boundary:** This is a source-only beta verified in Word for the web. It does
+not include a hosted legal-research service, public backend, legal database,
+AppSource listing or access to OpenLegalCore's private infrastructure.
+
 ### Legal OCR Pipeline · public v0.1.2
 
 An auditable, resumable OCR building block for image-based legal documents,
@@ -76,20 +90,6 @@ index.
 **Boundary:** The repository does not include source credentials, court
 decisions, source records, data snapshots, embedding access, managed
 infrastructure, a retrieval interface or legal advice.
-
-### OpenLegalCore Word Connector · public v0.1.0-beta.1
-
-An Apache-2.0 Microsoft Word task-pane add-in for researching Slovenian
-legislation and case law through an operator-configured compatible backend.
-
-[Repository](https://github.com/OpenLegalCore/olc-word-connector) ·
-[Component record](https://openlegalcore.org/components/word-connector/) ·
-[v0.1.0-beta.1 release](https://github.com/OpenLegalCore/olc-word-connector/releases/tag/v0.1.0-beta.1) ·
-[Apache-2.0 licence](https://github.com/OpenLegalCore/olc-word-connector/blob/v0.1.0-beta.1/LICENSE)
-
-**Boundary:** This is a source-only beta verified in Word for the web. It does
-not include a hosted legal-research service, public backend, legal database,
-AppSource listing or access to OpenLegalCore's private infrastructure.
 
 ## How to read the public record
 
